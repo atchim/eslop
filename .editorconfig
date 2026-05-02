@@ -1,0 +1,33 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 79
+quote_type = single
+trim_trailing_whitespace = true
+
+[Makefile]
+indent_style = tab
+
+[*.fish]
+indent_size = 4
+
+[*.{ebuild,eclass}]
+indent_style = tab
+indent_size = unset
+max_line_length = 100
+
+[{Manifest,metadata.xml}]
+indent_style = tab
+indent_size = unset
+max_line_length = unset
+
+# shfmt
+[*.{sh,bash,ebuild,eclass}]
+binary_next_line = true
+simplify = true
+switch_case_indent = true
