@@ -14,3 +14,4 @@ emaint sync -r eslop
 ## Packages
 
 - `x11-apps/sx` — start an Xorg server
+- `x11-misc/srandrd` — daemon that executes commands on display output changes
